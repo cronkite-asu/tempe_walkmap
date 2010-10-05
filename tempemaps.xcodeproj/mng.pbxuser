@@ -1,0 +1,114 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* tempemaps */ = {
+		activeExec = 0;
+		executables = (
+			B5ECB2E91243DE0B00B3BA45 /* tempemaps */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = B5ECB2E91243DE0B00B3BA45 /* tempemaps */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* tempemaps */;
+		codeSenseManager = B5ECB2FE1243DE4300B3BA45 /* Code sense */;
+		executables = (
+			B5ECB2E91243DE0B00B3BA45 /* tempemaps */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1180,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 306438551;
+			PBXWorkspaceStateSaveDate = 306438551;
+		};
+		perUserProjectItems = {
+			B554D3781243E1A2006772A8 /* PlistBookmark */ = B554D3781243E1A2006772A8 /* PlistBookmark */;
+			B554D3801243E1FF006772A8 /* PlistBookmark */ = B554D3801243E1FF006772A8 /* PlistBookmark */;
+		};
+		sourceControlManager = B5ECB2FD1243DE4300B3BA45 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	B554D3781243E1A2006772A8 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* tempemaps-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Volumes/Cruzer/samplemap/tempemaps-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	B554D3801243E1FF006772A8 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* tempemaps-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Volumes/Cruzer/samplemap/tempemaps-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	B5ECB2E91243DE0B00B3BA45 /* tempemaps */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = tempemaps;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	B5ECB2FD1243DE4300B3BA45 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	B5ECB2FE1243DE4300B3BA45 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}
