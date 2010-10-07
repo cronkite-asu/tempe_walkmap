@@ -7,9 +7,11 @@
 //
 
 #import "samplemapViewController.h"
+#import "listAll.h"
 
 @implementation samplemapViewController
 @synthesize webView;
+@synthesize list;
 
 -(IBAction)currentLocation:(id)sender{
 	
@@ -65,6 +67,13 @@
  [webView loadRequest:request];
  [super viewDidLoad];}
 
+-(IBAction)listBuildings:(id)sender
+{
+	listAll *viewcontroller = [[listAll alloc] initWithNibName:@"listAll" bundle:[NSBundle mainBundle]];	
+	[[self view] addSubview:viewcontroller.view];
+	
+	//[samplemapViewController logWindow :viewcontroller animated:YES];
+}
 
 
 /*
