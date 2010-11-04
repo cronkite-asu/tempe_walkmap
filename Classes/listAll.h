@@ -1,9 +1,9 @@
 //
 //  listAll.h
-//  tempeMaps
+//  tempemaps
 //
-//  Created by dthirum1 on 9/30/10.
-//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//  Created by dthirum1 on 10/15/10.
+//  Copyright 2010 edu.asu.cronkite. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -15,11 +15,12 @@
 	//NSMutableArray *dataSource;
 	NSMutableArray *searchedNames;
 	NSMutableArray *names;
-
+	
 }
 @property (nonatomic,retain) IBOutlet UITableView *myTableView;
 
 //@property(nonatomic,retain)NSMutableArray *dataSource;
 -(void) loadNames;
+
 
 @end

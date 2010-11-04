@@ -1,13 +1,15 @@
 //
 //  listAll.m
-//  tempeMaps
+//  tempemaps
 //
-//  Created by dthirum1 on 9/30/10.
-//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//  Created by dthirum1 on 10/15/10.
+//  Copyright 2010 edu.asu.cronkite. All rights reserved.
 //
 
 #import "listAll.h"
+
 #import "sqlite3.h"
+#import "detailBuilding.h"
 
 
 @implementation listAll
@@ -24,7 +26,7 @@
 
 -(void)loadNames {
 	// Path to the database
-	NSString* dbPath = [[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:@"buildinglist.db"];
+	NSString* dbPath = [[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:@"buildinglist"];
 	NSLog(@"databasePath: %@",dbPath);
 	sqlite3 *database;
 	NSString *name;
@@ -66,18 +68,23 @@
 	}
 }
 
+
+#pragma mark -
+#pragma mark View lifecycle
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-	//myTableView.dataSource=self;
 	names = [[NSMutableArray alloc] init];
 	searchedNames = [[NSMutableArray alloc] init];
 	[self loadNames];
 	[searchedNames addObjectsFromArray:names];//initially load data into table
-	
-	
+
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-}                             
+}
+
+
 /*
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
@@ -133,14 +140,10 @@
     }
     
     // Configure the cell...
-	/*NSString *cellText*/cell.textLabel.text= [searchedNames objectAtIndex:indexPath.row];
-	//[cell.textLabel setText:cellText];
+	cell.textLabel.text= [searchedNames objectAtIndex:indexPath.row];
     
     return cell;
 }
-
-
-#pragma mark Search Functions
 - (void)searchBarTextDidBeginEditing:(UISearchBar *)searchBar {
 }
 
@@ -170,6 +173,7 @@
 - (void)searchBarSearchButtonClicked:(UISearchBar *)searchBar {
 	[searchBar resignFirstResponder];
 }
+
 
 /*
 // Override to support conditional editing of the table view.
@@ -216,13 +220,15 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     // Navigation logic may go here. Create and push another view controller.
-	/*
-	 <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
+	
+	 detailBuilding *detailViewController = [[detailBuilding alloc] initWithNibName:@"detailBuilding" bundle:nil];
      // ...
      // Pass the selected object to the new view controller.
 	 [self.navigationController pushViewController:detailViewController animated:YES];
-	 [detailViewController release];
-	 */
+	[[self view] addSubview:detailViewController.view];
+	//self.title=[names name];
+	[detailViewController release];
+	 
 }
 
 
