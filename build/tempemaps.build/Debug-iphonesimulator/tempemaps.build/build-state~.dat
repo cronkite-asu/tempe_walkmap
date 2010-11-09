@@ -1,301 +1,0 @@
-Ttempemaps
-v7
-r0
-t306449214.122873
-cCheck dependencies
-cProcessInfoPlistFile /Volumes/Cruzer/samplemap/build/Debug-iphonesimulator/tempemaps.app/Info.plist tempemaps-Info.plist
-cCompileXIB /Volumes/Cruzer/samplemap/MainWindow.xib
-cCompileXIB /Volumes/Cruzer/samplemap/samplemapViewController.xib
-cCpResource build/Debug-iphonesimulator/tempemaps.app/list1.png list1.png
-cProcessPCH /var/folders/zz/zzzivhrRnAmviuee++azGU+7joc/-Caches-/com.apple.Xcode.638794/SharedPrecompiledHeaders/tempemaps_Prefix-bddvbticqdvfwbcejuredkpdplgu/tempemaps_Prefix.pch.gch tempemaps_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/tempemaps.build/Debug-iphonesimulator/tempemaps.build/Objects-normal/i386/main.o /Volumes/Cruzer/samplemap/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/tempemaps.build/Debug-iphonesimulator/tempemaps.build/Objects-normal/i386/samplemapAppDelegate.o /Volumes/Cruzer/samplemap/Classes/samplemapAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/tempemaps.build/Debug-iphonesimulator/tempemaps.build/Objects-normal/i386/samplemapViewController.o /Volumes/Cruzer/samplemap/Classes/samplemapViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Volumes/Cruzer/samplemap/build/Debug-iphonesimulator/tempemaps.app/tempemaps normal i386
-cGenerateDSYMFile /Volumes/Cruzer/samplemap/build/Debug-iphonesimulator/tempemaps.app.dSYM /Volumes/Cruzer/samplemap/build/Debug-iphonesimulator/tempemaps.app/tempemaps
-cTouch /Volumes/Cruzer/samplemap/build/Debug-iphonesimulator/tempemaps.app
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
-c000000004C52FC340000000000000132
-t1280506932
-s306
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004BFDFE39000000000027C7D0
-t1274936889
-s2607056
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
-c000000004BFF44C00000000000068F90
-t1275020480
-s429968
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
-c000000004BFF44B600000000000001D0
-t1275020470
-s464
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004BFDFE7C000000000029D5D0
-t1274936956
-s2741712
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004BFDFE6E0000000000001466
-t1274936942
-s5222
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.h
-c000000004C04724700000000000002FE
-t1275359815
-s766
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/MapKit.framework/MapKit
-c000000004C04725B0000000000160350
-t1275359835
-s1442640
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004C0470BB00000000000009CD
-t1275359419
-s2509
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004C0471620000000001D47210
-t1275359586
-s30700048
-
-N/Volumes/Cruzer/samplemap/Classes/samplemapAppDelegate.h
-c000000004C894EA00000000000000294
-t1284066976
-s660
-i<UIKit/UIKit.h>
-i<CoreLocation/CoreLocation.h>
-
-N/Volumes/Cruzer/samplemap/Classes/samplemapAppDelegate.m
-c000000004C894F380000000000000588
-t1284067128
-s1416
-i"samplemapAppDelegate.h"
-i"samplemapViewController.h"
-
-N/Volumes/Cruzer/samplemap/Classes/samplemapViewController.h
-c000000004C8FBBA00000000000000276
-t1284488096
-s630
-i<UIKit/UIKit.h>
-i<CoreLocation/CoreLocation.h>
-
-N/Volumes/Cruzer/samplemap/Classes/samplemapViewController.m
-c000000004C8FC01C0000000000000BC2
-t1284489244
-s3010
-i"samplemapViewController.h"
-
-N/Volumes/Cruzer/samplemap/MainWindow.xib
-c000000004C7D8DB80000000000002464
-t1283296696
-s9316
-
-N/Volumes/Cruzer/samplemap/build/Debug-iphonesimulator/tempemaps.app
-t1284756412
-s32768
-
-N/Volumes/Cruzer/samplemap/build/Debug-iphonesimulator/tempemaps.app.dSYM
-t1284756412
-s32768
-
-N/Volumes/Cruzer/samplemap/build/Debug-iphonesimulator/tempemaps.app/Info.plist
-t1284756408
-s611
-
-N/Volumes/Cruzer/samplemap/build/Debug-iphonesimulator/tempemaps.app/MainWindow.nib
-t1284756410
-s1103
-
-N/Volumes/Cruzer/samplemap/build/Debug-iphonesimulator/tempemaps.app/PkgInfo
-t1284756408
-s8
-
-N/Volumes/Cruzer/samplemap/build/Debug-iphonesimulator/tempemaps.app/list1.png
-t1284756410
-s1459
-
-N/Volumes/Cruzer/samplemap/build/Debug-iphonesimulator/tempemaps.app/samplemapViewController.nib
-t1284756410
-s2874
-
-N/Volumes/Cruzer/samplemap/build/Debug-iphonesimulator/tempemaps.app/tempemaps
-t1284756412
-s17264
-
-N/Volumes/Cruzer/samplemap/build/tempemaps.build/Debug-iphonesimulator/tempemaps.build/Objects-normal/i386/main.o
-t1284756412
-s6384
-
-N/Volumes/Cruzer/samplemap/build/tempemaps.build/Debug-iphonesimulator/tempemaps.build/Objects-normal/i386/samplemapAppDelegate.o
-t1284756412
-s46992
-
-N/Volumes/Cruzer/samplemap/build/tempemaps.build/Debug-iphonesimulator/tempemaps.build/Objects-normal/i386/samplemapViewController.o
-t1284756412
-s39292
-
-N/Volumes/Cruzer/samplemap/build/tempemaps.build/Debug-iphonesimulator/tempemaps.build/Objects-normal/i386/tempemaps.LinkFileList
-c000000004C93D3B80000000000000176
-t1284756408
-s374
-
-N/Volumes/Cruzer/samplemap/list1.png
-c000000004C93D37200000000000005B3
-t1284756338
-s1459
-
-N/Volumes/Cruzer/samplemap/main.m
-c000000004C7D8DB80000000000000169
-t1283296696
-s361
-i<UIKit/UIKit.h>
-
-N/Volumes/Cruzer/samplemap/samplemapViewController.xib
-c000000004C93D3AA0000000000007D4E
-t1284756394
-s32078
-
-N/Volumes/Cruzer/samplemap/tempemaps_Prefix.pch
-c000000004C892AD600000000000000FB
-t1284057814
-s251
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-i<CoreLocation/CoreLocation.h>
-i<MapKit/MapKit.h>
-
-N/var/folders/zz/zzzivhrRnAmviuee++azGU+7joc/-Caches-/com.apple.Xcode.638794/SharedPrecompiledHeaders/tempemaps_Prefix-bddvbticqdvfwbcejuredkpdplgu/tempemaps_Prefix.pch.gch
-t1284756413
-s15830992
-
-Ntempemaps-Info.plist
-c000000004C93A98400000000000003F0
-t1284745604
-s1008
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies306449208#306449208#0(0"0(0#1#0"8615604512#0"0#
-
-CCompileC build/tempemaps.build/Debug-iphonesimulator/tempemaps.build/Objects-normal/i386/main.o /Volumes/Cruzer/samplemap/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s306449213.338143
-e306449213.431263
-r1
-xCompileC
-xbuild/tempemaps.build/Debug-iphonesimulator/tempemaps.build/Objects-normal/i386/main.o
-x/Volumes/Cruzer/samplemap/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@40"Compile /Volumes/Cruzer/samplemap/main.m306449213#306449213#0(0"0(0#0#32"/Volumes/Cruzer/samplemap/main.m8613380768#1801"    cd /Volumes/Cruzer/samplemap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Volumes/Cruzer/samplemap/build/tempemaps.build/Debug-iphonesimulator/tempemaps.build/tempemaps-generated-files.hmap -I/Volumes/Cruzer/samplemap/build/tempemaps.build/Debug-iphonesimulator/tempemaps.build/tempemaps-own-target-headers.hmap -I/Volumes/Cruzer/samplemap/build/tempemaps.build/Debug-iphonesimulator/tempemaps.build/tempemaps-all-target-headers.hmap -iquote /Volumes/Cruzer/samplemap/build/tempemaps.build/Debug-iphonesimulator/tempemaps.build/tempemaps-project-headers.hmap -F/Volumes/Cruzer/samplemap/build/Debug-iphonesimulator -I/Volumes/Cruzer/samplemap/build/Debug-iphonesimulator/include -I/Volumes/Cruzer/samplemap/build/tempemaps.build/Debug-iphonesimulator/tempemaps.build/DerivedSources/i386 -I/Volumes/Cruzer/samplemap/build/tempemaps.build/Debug-iphonesimulator/tempemaps.build/DerivedSources -include /var/folders/zz/zzzivhrRnAmviuee++azGU+7joc/-Caches-/com.apple.Xcode.638794/SharedPrecompiledHeaders/tempemaps_Prefix-bddvbticqdvfwbcejuredkpdplgu/tempemaps_Prefix.pch -c /Volumes/Cruzer/samplemap/main.m -o /Volumes/Cruzer/samplemap/build/tempemaps.build/Debug-iphonesimulator/tempemaps.build/Objects-normal/i386/main.o0#
-
-CCompileC build/tempemaps.build/Debug-iphonesimulator/tempemaps.build/Objects-normal/i386/samplemapAppDelegate.o /Volumes/Cruzer/samplemap/Classes/samplemapAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s306449213.339430
-e306449213.447065
-r1
-xCompileC
-xbuild/tempemaps.build/Debug-iphonesimulator/tempemaps.build/Objects-normal/i386/samplemapAppDelegate.o
-x/Volumes/Cruzer/samplemap/Classes/samplemapAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@64"Compile /Volumes/Cruzer/samplemap/Classes/samplemapAppDelegate.m306449213#306449213#0(0"0(0#0#56"/Volumes/Cruzer/samplemap/Classes/samplemapAppDelegate.m8617006240#1841"    cd /Volumes/Cruzer/samplemap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Volumes/Cruzer/samplemap/build/tempemaps.build/Debug-iphonesimulator/tempemaps.build/tempemaps-generated-files.hmap -I/Volumes/Cruzer/samplemap/build/tempemaps.build/Debug-iphonesimulator/tempemaps.build/tempemaps-own-target-headers.hmap -I/Volumes/Cruzer/samplemap/build/tempemaps.build/Debug-iphonesimulator/tempemaps.build/tempemaps-all-target-headers.hmap -iquote /Volumes/Cruzer/samplemap/build/tempemaps.build/Debug-iphonesimulator/tempemaps.build/tempemaps-project-headers.hmap -F/Volumes/Cruzer/samplemap/build/Debug-iphonesimulator -I/Volumes/Cruzer/samplemap/build/Debug-iphonesimulator/include -I/Volumes/Cruzer/samplemap/build/tempemaps.build/Debug-iphonesimulator/tempemaps.build/DerivedSources/i386 -I/Volumes/Cruzer/samplemap/build/tempemaps.build/Debug-iphonesimulator/tempemaps.build/DerivedSources -include /var/folders/zz/zzzivhrRnAmviuee++azGU+7joc/-Caches-/com.apple.Xcode.638794/SharedPrecompiledHeaders/tempemaps_Prefix-bddvbticqdvfwbcejuredkpdplgu/tempemaps_Prefix.pch -c /Volumes/Cruzer/samplemap/Classes/samplemapAppDelegate.m -o /Volumes/Cruzer/samplemap/build/tempemaps.build/Debug-iphonesimulator/tempemaps.build/Objects-normal/i386/samplemapAppDelegate.o0#
-
-CCompileC build/tempemaps.build/Debug-iphonesimulator/tempemaps.build/Objects-normal/i386/samplemapViewController.o /Volumes/Cruzer/samplemap/Classes/samplemapViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s306449213.431351
-e306449213.531021
-r1
-xCompileC
-xbuild/tempemaps.build/Debug-iphonesimulator/tempemaps.build/Objects-normal/i386/samplemapViewController.o
-x/Volumes/Cruzer/samplemap/Classes/samplemapViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@67"Compile /Volumes/Cruzer/samplemap/Classes/samplemapViewController.m306449213#306449213#0(0"0(0#0#59"/Volumes/Cruzer/samplemap/Classes/samplemapViewController.m8615143360#1847"    cd /Volumes/Cruzer/samplemap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Volumes/Cruzer/samplemap/build/tempemaps.build/Debug-iphonesimulator/tempemaps.build/tempemaps-generated-files.hmap -I/Volumes/Cruzer/samplemap/build/tempemaps.build/Debug-iphonesimulator/tempemaps.build/tempemaps-own-target-headers.hmap -I/Volumes/Cruzer/samplemap/build/tempemaps.build/Debug-iphonesimulator/tempemaps.build/tempemaps-all-target-headers.hmap -iquote /Volumes/Cruzer/samplemap/build/tempemaps.build/Debug-iphonesimulator/tempemaps.build/tempemaps-project-headers.hmap -F/Volumes/Cruzer/samplemap/build/Debug-iphonesimulator -I/Volumes/Cruzer/samplemap/build/Debug-iphonesimulator/include -I/Volumes/Cruzer/samplemap/build/tempemaps.build/Debug-iphonesimulator/tempemaps.build/DerivedSources/i386 -I/Volumes/Cruzer/samplemap/build/tempemaps.build/Debug-iphonesimulator/tempemaps.build/DerivedSources -include /var/folders/zz/zzzivhrRnAmviuee++azGU+7joc/-Caches-/com.apple.Xcode.638794/SharedPrecompiledHeaders/tempemaps_Prefix-bddvbticqdvfwbcejuredkpdplgu/tempemaps_Prefix.pch -c /Volumes/Cruzer/samplemap/Classes/samplemapViewController.m -o /Volumes/Cruzer/samplemap/build/tempemaps.build/Debug-iphonesimulator/tempemaps.build/Objects-normal/i386/samplemapViewController.o0#
-
-CCompileXIB /Volumes/Cruzer/samplemap/MainWindow.xib
-s306449208.533047
-e306449211.282719
-r1
-xCompileXIB
-x/Volumes/Cruzer/samplemap/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib306449208#306449211#0(0"0(0#0#40"/Volumes/Cruzer/samplemap/MainWindow.xib8617004928#533"    cd /Volumes/Cruzer/samplemap    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/Cruzer/samplemap/build/Debug-iphonesimulator/tempemaps.app/MainWindow.nib /Volumes/Cruzer/samplemap/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
-
-CCompileXIB /Volumes/Cruzer/samplemap/samplemapViewController.xib
-s306449208.551462
-e306449211.431700
-r1
-xCompileXIB
-x/Volumes/Cruzer/samplemap/samplemapViewController.xib
-o/* com.apple.ibtool.document.notices */
-o/Volumes/Cruzer/samplemap/samplemapViewController.xib:45: note: This bar button system item has a value specified for 'width'; system items other than fixed spaces should use autosizing.
-lSLF07#2@38"CompileXIB samplemapViewController.xib306449208#306449211#0(227"/* com.apple.ibtool.document.notices *//Volumes/Cruzer/samplemap/samplemapViewController.xib:45: note: This bar button system item has a value specified for 'width'; system items other than fixed spaces should use autosizing.1(13@122"This bar button system item has a value specified for 'width'; system items other than fixed spaces should use autosizing.306449211#18446744073709551615#0#0(6@53"/Volumes/Cruzer/samplemap/samplemapViewController.xib306449194#45#0#45#0#0"0(0#0#53"/Volumes/Cruzer/samplemap/samplemapViewController.xib8616623968#559"    cd /Volumes/Cruzer/samplemap    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/Cruzer/samplemap/build/Debug-iphonesimulator/tempemaps.app/samplemapViewController.nib /Volumes/Cruzer/samplemap/samplemapViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
-
-CCpResource build/Debug-iphonesimulator/tempemaps.app/list1.png list1.png
-s306449211.282911
-e306449211.367058
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/tempemaps.app/list1.png
-xlist1.png
-lSLF07#2@14"Copy list1.png306449211#306449211#0(0"0(0#0#35"/Volumes/Cruzer/samplemap/list1.png8615081216#416"    cd /Volumes/Cruzer/samplemap    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Volumes/Cruzer/samplemap/list1.png /Volumes/Cruzer/samplemap/build/Debug-iphonesimulator/tempemaps.app0#
-
-CGenerateDSYMFile /Volumes/Cruzer/samplemap/build/Debug-iphonesimulator/tempemaps.app.dSYM /Volumes/Cruzer/samplemap/build/Debug-iphonesimulator/tempemaps.app/tempemaps
-s306449213.760084
-e306449213.856479
-r1
-xGenerateDSYMFile
-x/Volumes/Cruzer/samplemap/build/Debug-iphonesimulator/tempemaps.app.dSYM
-x/Volumes/Cruzer/samplemap/build/Debug-iphonesimulator/tempemaps.app/tempemaps
-lSLF07#2@115"GenerateDSYMFile build/Debug-iphonesimulator/tempemaps.app.dSYM build/Debug-iphonesimulator/tempemaps.app/tempemaps306449213#306449213#0(0"0(0#0#77"/Volumes/Cruzer/samplemap/build/Debug-iphonesimulator/tempemaps.app/tempemaps8618419392#350"    cd /Volumes/Cruzer/samplemap    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Volumes/Cruzer/samplemap/build/Debug-iphonesimulator/tempemaps.app/tempemaps -o /Volumes/Cruzer/samplemap/build/Debug-iphonesimulator/tempemaps.app.dSYM0#
-
-CLd /Volumes/Cruzer/samplemap/build/Debug-iphonesimulator/tempemaps.app/tempemaps normal i386
-s306449213.531102
-e306449213.759978
-r1
-xLd
-x/Volumes/Cruzer/samplemap/build/Debug-iphonesimulator/tempemaps.app/tempemaps
-xnormal
-xi386
-lSLF07#2@82"Link /Volumes/Cruzer/samplemap/build/Debug-iphonesimulator/tempemaps.app/tempemaps306449213#306449213#0(0"0(0#0#0"8609179616#887"    cd /Volumes/Cruzer/samplemap    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Volumes/Cruzer/samplemap/build/Debug-iphonesimulator -F/Volumes/Cruzer/samplemap/build/Debug-iphonesimulator -filelist /Volumes/Cruzer/samplemap/build/tempemaps.build/Debug-iphonesimulator/tempemaps.build/Objects-normal/i386/tempemaps.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreLocation -framework MapKit -o /Volumes/Cruzer/samplemap/build/Debug-iphonesimulator/tempemaps.app/tempemaps0#
-
-CProcessInfoPlistFile /Volumes/Cruzer/samplemap/build/Debug-iphonesimulator/tempemaps.app/Info.plist tempemaps-Info.plist
-s306449208.527254
-e306449208.532967
-r1
-xProcessInfoPlistFile
-x/Volumes/Cruzer/samplemap/build/Debug-iphonesimulator/tempemaps.app/Info.plist
-xtempemaps-Info.plist
-lSLF07#2@28"Process tempemaps-Info.plist306449208#306449208#0(0"0(0#0#46"/Volumes/Cruzer/samplemap/tempemaps-Info.plist8618129472#446"    cd /Volumes/Cruzer/samplemap    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility tempemaps-Info.plist -genpkginfo /Volumes/Cruzer/samplemap/build/Debug-iphonesimulator/tempemaps.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Volumes/Cruzer/samplemap/build/Debug-iphonesimulator/tempemaps.app/Info.plist0#
-
-CProcessPCH /var/folders/zz/zzzivhrRnAmviuee++azGU+7joc/-Caches-/com.apple.Xcode.638794/SharedPrecompiledHeaders/tempemaps_Prefix-bddvbticqdvfwbcejuredkpdplgu/tempemaps_Prefix.pch.gch tempemaps_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s306449211.431808
-e306449213.337922
-r1
-xProcessPCH
-x/var/folders/zz/zzzivhrRnAmviuee++azGU+7joc/-Caches-/com.apple.Xcode.638794/SharedPrecompiledHeaders/tempemaps_Prefix-bddvbticqdvfwbcejuredkpdplgu/tempemaps_Prefix.pch.gch
-xtempemaps_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@31"Precompile tempemaps_Prefix.pch306449211#306449213#0(0"0(0#0#46"/Volumes/Cruzer/samplemap/tempemaps_Prefix.pch8614711456#1704"    cd /Volumes/Cruzer/samplemap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Volumes/Cruzer/samplemap/build/tempemaps.build/Debug-iphonesimulator/tempemaps.build/tempemaps-generated-files.hmap -I/Volumes/Cruzer/samplemap/build/tempemaps.build/Debug-iphonesimulator/tempemaps.build/tempemaps-own-target-headers.hmap -I/Volumes/Cruzer/samplemap/build/tempemaps.build/Debug-iphonesimulator/tempemaps.build/tempemaps-all-target-headers.hmap -iquote /Volumes/Cruzer/samplemap/build/tempemaps.build/Debug-iphonesimulator/tempemaps.build/tempemaps-project-headers.hmap -F/Volumes/Cruzer/samplemap/build/Debug-iphonesimulator -I/Volumes/Cruzer/samplemap/build/Debug-iphonesimulator/include -I/Volumes/Cruzer/samplemap/build/tempemaps.build/Debug-iphonesimulator/tempemaps.build/DerivedSources/i386 -I/Volumes/Cruzer/samplemap/build/tempemaps.build/Debug-iphonesimulator/tempemaps.build/DerivedSources -c /Volumes/Cruzer/samplemap/tempemaps_Prefix.pch -o /var/folders/zz/zzzivhrRnAmviuee++azGU+7joc/-Caches-/com.apple.Xcode.638794/SharedPrecompiledHeaders/tempemaps_Prefix-bddvbticqdvfwbcejuredkpdplgu/tempemaps_Prefix.pch.gch0#
-
-CTouch /Volumes/Cruzer/samplemap/build/Debug-iphonesimulator/tempemaps.app
-s306449213.856595
-e306449214.122813
-r1
-xTouch
-x/Volumes/Cruzer/samplemap/build/Debug-iphonesimulator/tempemaps.app
-lSLF07#2@73"Touch /Volumes/Cruzer/samplemap/build/Debug-iphonesimulator/tempemaps.app306449213#306449214#0(0"0(0#0#0"8617833472#254"    cd /Volumes/Cruzer/samplemap    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Volumes/Cruzer/samplemap/build/Debug-iphonesimulator/tempemaps.app0#
-

@@ -1,384 +1,0 @@
-Tsamplemap
-v7
-r0
-t306371754.446275
-cCheck dependencies
-cProcessInfoPlistFile /Users/nmil/Desktop/samplemap/build/Debug-iphonesimulator/samplemap.app/Info.plist samplemap-Info.plist
-cCompileXIB /Users/nmil/Desktop/samplemap/MainWindow.xib
-cCompileXIB /Users/nmil/Desktop/samplemap/samplemapViewController.xib
-cCpResource build/Debug-iphonesimulator/samplemap.app/index.html ../index.html
-cCpResource build/Debug-iphonesimulator/samplemap.app/list1.png ../list1.png
-cCpResource build/Debug-iphonesimulator/samplemap.app/pitchpointernew.png ../pitchpointernew.png
-cProcessPCH /var/folders/-S/-S4C0P4bEniSSDBGPIQk2++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/samplemap_Prefix-ghbbfaugmklcokbbamqeqnwxhfef/samplemap_Prefix.pch.gch samplemap_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/samplemap.build/Debug-iphonesimulator/samplemap.build/Objects-normal/i386/main.o /Users/nmil/Desktop/samplemap/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/samplemap.build/Debug-iphonesimulator/samplemap.build/Objects-normal/i386/samplemapAppDelegate.o /Users/nmil/Desktop/samplemap/Classes/samplemapAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/samplemap.build/Debug-iphonesimulator/samplemap.build/Objects-normal/i386/samplemapViewController.o /Users/nmil/Desktop/samplemap/Classes/samplemapViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/nmil/Desktop/samplemap/build/Debug-iphonesimulator/samplemap.app/samplemap normal i386
-cGenerateDSYMFile /Users/nmil/Desktop/samplemap/build/Debug-iphonesimulator/samplemap.app.dSYM /Users/nmil/Desktop/samplemap/build/Debug-iphonesimulator/samplemap.app/samplemap
-cTouch /Users/nmil/Desktop/samplemap/build/Debug-iphonesimulator/samplemap.app
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk
-c000000004C336D4F00000000000000EE
-t1278438735
-s238
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004B2B4CC3000000000026EE30
-t1261128899
-s2551344
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
-c000000004B2B61C3000000000004AFC0
-t1261134275
-s307136
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
-c000000004B2B61BC00000000000001AF
-t1261134268
-s431
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004B2B4DC8000000000027E880
-t1261129160
-s2615424
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004B2B4DAE0000000000001355
-t1261129134
-s4949
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.h
-c000000004B2B634C000000000000017D
-t1261134668
-s381
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/MapKit.framework/MapKit
-c000000004B2B6372000000000010EB60
-t1261134706
-s1108832
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004B2B61620000000000000788
-t1261134178
-s1928
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004B2B62B500000000016721E0
-t1261134517
-s23536096
-
-N/Users/nmil/Desktop/samplemap/../index.html
-c000000004C8A904D0000000000001140
-t1284149325
-s4416
-
-N/Users/nmil/Desktop/samplemap/../javascript.html
-c000000004C8A8BCD0000000000001149
-t1284148173
-s4425
-
-N/Users/nmil/Desktop/samplemap/../list1.png
-c000000004C9272AA00000000000005B3
-t1284666026
-s1459
-
-N/Users/nmil/Desktop/samplemap/../pitchpointer.png
-c000000004C92A86B0000000000000183
-t1284679787
-s387
-
-N/Users/nmil/Desktop/samplemap/../pitchpointernew.png
-c000000004C9277C20000000000000149
-t1284667330
-s329
-
-N/Users/nmil/Desktop/samplemap/Classes/samplemapAppDelegate.h
-c000000004C894EA00000000000000294
-t1284066976
-s660
-i<UIKit/UIKit.h>
-i<CoreLocation/CoreLocation.h>
-
-N/Users/nmil/Desktop/samplemap/Classes/samplemapAppDelegate.m
-c000000004C894F380000000000000588
-t1284067128
-s1416
-i"samplemapAppDelegate.h"
-i"samplemapViewController.h"
-
-N/Users/nmil/Desktop/samplemap/Classes/samplemapViewController.h
-c000000004C8FBBA00000000000000276
-t1284488096
-s630
-i<UIKit/UIKit.h>
-i<CoreLocation/CoreLocation.h>
-
-N/Users/nmil/Desktop/samplemap/Classes/samplemapViewController.m
-c000000004C8FC01C0000000000000BC2
-t1284489244
-s3010
-i"samplemapViewController.h"
-
-N/Users/nmil/Desktop/samplemap/MainWindow.xib
-c000000004C7D8DB90000000000002464
-t1283296697
-s9316
-
-N/Users/nmil/Desktop/samplemap/build/Debug-iphonesimulator/samplemap.app
-t1284669425
-s374
-
-N/Users/nmil/Desktop/samplemap/build/Debug-iphonesimulator/samplemap.app.dSYM
-t1284489245
-s102
-
-N/Users/nmil/Desktop/samplemap/build/Debug-iphonesimulator/samplemap.app/Info.plist
-t1284145848
-s572
-
-N/Users/nmil/Desktop/samplemap/build/Debug-iphonesimulator/samplemap.app/MainWindow.nib
-t1283296906
-s1499
-
-N/Users/nmil/Desktop/samplemap/build/Debug-iphonesimulator/samplemap.app/PkgInfo
-t1284145848
-s8
-
-N/Users/nmil/Desktop/samplemap/build/Debug-iphonesimulator/samplemap.app/index.html
-t1284149326
-s4416
-
-N/Users/nmil/Desktop/samplemap/build/Debug-iphonesimulator/samplemap.app/javascript.html
-t1284148174
-s4425
-
-N/Users/nmil/Desktop/samplemap/build/Debug-iphonesimulator/samplemap.app/list1.png
-t1284666507
-s1459
-
-N/Users/nmil/Desktop/samplemap/build/Debug-iphonesimulator/samplemap.app/pitchpointer.png
-t2
-s0
-
-N/Users/nmil/Desktop/samplemap/build/Debug-iphonesimulator/samplemap.app/pitchpointernew.png
-t1284669424
-s329
-
-N/Users/nmil/Desktop/samplemap/build/Debug-iphonesimulator/samplemap.app/samplemap
-t1284489245
-s20172
-
-N/Users/nmil/Desktop/samplemap/build/Debug-iphonesimulator/samplemap.app/samplemapViewController.nib
-t1284669425
-s4627
-
-N/Users/nmil/Desktop/samplemap/build/samplemap.build/Debug-iphonesimulator/samplemap.build/Objects-normal/i386/main.o
-t1284066848
-s5940
-
-N/Users/nmil/Desktop/samplemap/build/samplemap.build/Debug-iphonesimulator/samplemap.build/Objects-normal/i386/samplemap.LinkFileList
-c000000004C7D8E890000000000000182
-t1283296905
-s386
-
-N/Users/nmil/Desktop/samplemap/build/samplemap.build/Debug-iphonesimulator/samplemap.build/Objects-normal/i386/samplemapAppDelegate.o
-t1284488149
-s38728
-
-N/Users/nmil/Desktop/samplemap/build/samplemap.build/Debug-iphonesimulator/samplemap.build/Objects-normal/i386/samplemapViewController.o
-t1284489244
-s33476
-
-N/Users/nmil/Desktop/samplemap/main.m
-c000000004C7D8DB90000000000000169
-t1283296697
-s361
-i<UIKit/UIKit.h>
-
-N/Users/nmil/Desktop/samplemap/samplemapViewController.xib
-c000000004C927FEC00000000000074ED
-t1284669420
-s29933
-
-N/Users/nmil/Desktop/samplemap/samplemap_Prefix.pch
-c000000004C892AD600000000000000FB
-t1284057814
-s251
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-i<CoreLocation/CoreLocation.h>
-i<MapKit/MapKit.h>
-
-N/var/folders/-S/-S4C0P4bEniSSDBGPIQk2++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/samplemap_Prefix-cfiblhusnwxwqsfbkmlmsklrrryb/samplemap_Prefix.pch.gch
-t1284058004
-s13236208
-
-N/var/folders/-S/-S4C0P4bEniSSDBGPIQk2++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/samplemap_Prefix-ghbbfaugmklcokbbamqeqnwxhfef/samplemap_Prefix.pch.gch
-t1284066848
-s13236208
-
-Nsamplemap-Info.plist
-c000000004C8A82B500000000000003FC
-t1284145845
-s1020
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies306371754#306371754#0(0"0(0#1#0"4300885448#0"0#
-
-CCompileC build/samplemap.build/Debug-iphonesimulator/samplemap.build/Objects-normal/i386/main.o /Users/nmil/Desktop/samplemap/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305759648.279260
-e305759648.506278
-r1
-xCompileC
-xbuild/samplemap.build/Debug-iphonesimulator/samplemap.build/Objects-normal/i386/main.o
-x/Users/nmil/Desktop/samplemap/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@44"Compile /Users/nmil/Desktop/samplemap/main.m305759648#305759648#0(0"0(0#0#36"/Users/nmil/Desktop/samplemap/main.m4300885448#1800"    cd /Users/nmil/Desktop/samplemap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/nmil/Desktop/samplemap/build/samplemap.build/Debug-iphonesimulator/samplemap.build/samplemap-generated-files.hmap -I/Users/nmil/Desktop/samplemap/build/samplemap.build/Debug-iphonesimulator/samplemap.build/samplemap-own-target-headers.hmap -I/Users/nmil/Desktop/samplemap/build/samplemap.build/Debug-iphonesimulator/samplemap.build/samplemap-all-target-headers.hmap -iquote /Users/nmil/Desktop/samplemap/build/samplemap.build/Debug-iphonesimulator/samplemap.build/samplemap-project-headers.hmap -F/Users/nmil/Desktop/samplemap/build/Debug-iphonesimulator -I/Users/nmil/Desktop/samplemap/build/Debug-iphonesimulator/include -I/Users/nmil/Desktop/samplemap/build/samplemap.build/Debug-iphonesimulator/samplemap.build/DerivedSources/i386 -I/Users/nmil/Desktop/samplemap/build/samplemap.build/Debug-iphonesimulator/samplemap.build/DerivedSources -include /var/folders/-S/-S4C0P4bEniSSDBGPIQk2++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/samplemap_Prefix-ghbbfaugmklcokbbamqeqnwxhfef/samplemap_Prefix.pch -c /Users/nmil/Desktop/samplemap/main.m -o /Users/nmil/Desktop/samplemap/build/samplemap.build/Debug-iphonesimulator/samplemap.build/Objects-normal/i386/main.o0#
-
-CCompileC build/samplemap.build/Debug-iphonesimulator/samplemap.build/Objects-normal/i386/samplemapAppDelegate.o /Users/nmil/Desktop/samplemap/Classes/samplemapAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s306180946.987250
-e306180949.379944
-r1
-xCompileC
-xbuild/samplemap.build/Debug-iphonesimulator/samplemap.build/Objects-normal/i386/samplemapAppDelegate.o
-x/Users/nmil/Desktop/samplemap/Classes/samplemapAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@68"Compile /Users/nmil/Desktop/samplemap/Classes/samplemapAppDelegate.m306180946#306180949#0(0"0(0#0#60"/Users/nmil/Desktop/samplemap/Classes/samplemapAppDelegate.m4300885448#1840"    cd /Users/nmil/Desktop/samplemap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/nmil/Desktop/samplemap/build/samplemap.build/Debug-iphonesimulator/samplemap.build/samplemap-generated-files.hmap -I/Users/nmil/Desktop/samplemap/build/samplemap.build/Debug-iphonesimulator/samplemap.build/samplemap-own-target-headers.hmap -I/Users/nmil/Desktop/samplemap/build/samplemap.build/Debug-iphonesimulator/samplemap.build/samplemap-all-target-headers.hmap -iquote /Users/nmil/Desktop/samplemap/build/samplemap.build/Debug-iphonesimulator/samplemap.build/samplemap-project-headers.hmap -F/Users/nmil/Desktop/samplemap/build/Debug-iphonesimulator -I/Users/nmil/Desktop/samplemap/build/Debug-iphonesimulator/include -I/Users/nmil/Desktop/samplemap/build/samplemap.build/Debug-iphonesimulator/samplemap.build/DerivedSources/i386 -I/Users/nmil/Desktop/samplemap/build/samplemap.build/Debug-iphonesimulator/samplemap.build/DerivedSources -include /var/folders/-S/-S4C0P4bEniSSDBGPIQk2++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/samplemap_Prefix-ghbbfaugmklcokbbamqeqnwxhfef/samplemap_Prefix.pch -c /Users/nmil/Desktop/samplemap/Classes/samplemapAppDelegate.m -o /Users/nmil/Desktop/samplemap/build/samplemap.build/Debug-iphonesimulator/samplemap.build/Objects-normal/i386/samplemapAppDelegate.o0#
-
-CCompileC build/samplemap.build/Debug-iphonesimulator/samplemap.build/Objects-normal/i386/samplemapViewController.o /Users/nmil/Desktop/samplemap/Classes/samplemapViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s306182044.869585
-e306182044.974259
-r1
-xCompileC
-xbuild/samplemap.build/Debug-iphonesimulator/samplemap.build/Objects-normal/i386/samplemapViewController.o
-x/Users/nmil/Desktop/samplemap/Classes/samplemapViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@71"Compile /Users/nmil/Desktop/samplemap/Classes/samplemapViewController.m306182044#306182044#0(0"0(0#0#63"/Users/nmil/Desktop/samplemap/Classes/samplemapViewController.m4300885448#1846"    cd /Users/nmil/Desktop/samplemap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/nmil/Desktop/samplemap/build/samplemap.build/Debug-iphonesimulator/samplemap.build/samplemap-generated-files.hmap -I/Users/nmil/Desktop/samplemap/build/samplemap.build/Debug-iphonesimulator/samplemap.build/samplemap-own-target-headers.hmap -I/Users/nmil/Desktop/samplemap/build/samplemap.build/Debug-iphonesimulator/samplemap.build/samplemap-all-target-headers.hmap -iquote /Users/nmil/Desktop/samplemap/build/samplemap.build/Debug-iphonesimulator/samplemap.build/samplemap-project-headers.hmap -F/Users/nmil/Desktop/samplemap/build/Debug-iphonesimulator -I/Users/nmil/Desktop/samplemap/build/Debug-iphonesimulator/include -I/Users/nmil/Desktop/samplemap/build/samplemap.build/Debug-iphonesimulator/samplemap.build/DerivedSources/i386 -I/Users/nmil/Desktop/samplemap/build/samplemap.build/Debug-iphonesimulator/samplemap.build/DerivedSources -include /var/folders/-S/-S4C0P4bEniSSDBGPIQk2++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/samplemap_Prefix-ghbbfaugmklcokbbamqeqnwxhfef/samplemap_Prefix.pch -c /Users/nmil/Desktop/samplemap/Classes/samplemapViewController.m -o /Users/nmil/Desktop/samplemap/build/samplemap.build/Debug-iphonesimulator/samplemap.build/Objects-normal/i386/samplemapViewController.o0#
-
-CCompileXIB /Users/nmil/Desktop/samplemap/MainWindow.xib
-s304989705.702174
-e304989706.048740
-r1
-xCompileXIB
-x/Users/nmil/Desktop/samplemap/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib304989705#304989706#0(0"0(0#0#44"/Users/nmil/Desktop/samplemap/MainWindow.xib4300885448#457"    cd /Users/nmil/Desktop/samplemap    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/nmil/Desktop/samplemap/build/Debug-iphonesimulator/samplemap.app/MainWindow.nib /Users/nmil/Desktop/samplemap/MainWindow.xib0#
-
-CCompileXIB /Users/nmil/Desktop/samplemap/samplemapViewController.xib
-s306362224.936377
-e306362225.525872
-r1
-xCompileXIB
-x/Users/nmil/Desktop/samplemap/samplemapViewController.xib
-lSLF07#2@38"CompileXIB samplemapViewController.xib306362224#306362225#0(0"0(0#0#57"/Users/nmil/Desktop/samplemap/samplemapViewController.xib4300885448#483"    cd /Users/nmil/Desktop/samplemap    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/nmil/Desktop/samplemap/build/Debug-iphonesimulator/samplemap.app/samplemapViewController.nib /Users/nmil/Desktop/samplemap/samplemapViewController.xib0#
-
-CCpResource build/Debug-iphonesimulator/samplemap.app/index.html ../index.html
-s305842125.923280
-e305842126.073276
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/samplemap.app/index.html
-x../index.html
-lSLF07#2@18"Copy ../index.html305842125#305842126#0(0"0(0#0#43"/Users/nmil/Desktop/samplemap/../index.html4300885448#432"    cd /Users/nmil/Desktop/samplemap    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/nmil/Desktop/samplemap/../index.html /Users/nmil/Desktop/samplemap/build/Debug-iphonesimulator/samplemap.app0#
-
-CCpResource build/Debug-iphonesimulator/samplemap.app/javascript.html ../javascript.html
-s305840974.217648
-e305840974.247190
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/samplemap.app/javascript.html
-x../javascript.html
-lSLF07#2@23"Copy ../javascript.html305840974#305840974#0(0"0(0#0#48"/Users/nmil/Desktop/samplemap/../javascript.html4300885448#437"    cd /Users/nmil/Desktop/samplemap    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/nmil/Desktop/samplemap/../javascript.html /Users/nmil/Desktop/samplemap/build/Debug-iphonesimulator/samplemap.app0#
-
-CCpResource build/Debug-iphonesimulator/samplemap.app/list1.png ../list1.png
-s306359306.952072
-e306359307.060107
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/samplemap.app/list1.png
-x../list1.png
-lSLF07#2@17"Copy ../list1.png306359306#306359307#0(0"0(0#0#42"/Users/nmil/Desktop/samplemap/../list1.png4300885448#431"    cd /Users/nmil/Desktop/samplemap    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/nmil/Desktop/samplemap/../list1.png /Users/nmil/Desktop/samplemap/build/Debug-iphonesimulator/samplemap.app0#
-
-CCpResource build/Debug-iphonesimulator/samplemap.app/pitchpointer.png ../pitchpointer.png
-r0
-
-CCpResource build/Debug-iphonesimulator/samplemap.app/pitchpointernew.png ../pitchpointernew.png
-s306362224.937225
-e306362224.996157
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/samplemap.app/pitchpointernew.png
-x../pitchpointernew.png
-lSLF07#2@27"Copy ../pitchpointernew.png306362224#306362224#0(0"0(0#0#52"/Users/nmil/Desktop/samplemap/../pitchpointernew.png4300885448#441"    cd /Users/nmil/Desktop/samplemap    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/nmil/Desktop/samplemap/../pitchpointernew.png /Users/nmil/Desktop/samplemap/build/Debug-iphonesimulator/samplemap.app0#
-
-CGenerateDSYMFile /Users/nmil/Desktop/samplemap/build/Debug-iphonesimulator/samplemap.app.dSYM /Users/nmil/Desktop/samplemap/build/Debug-iphonesimulator/samplemap.app/samplemap
-s306182045.035356
-e306182045.122520
-r1
-xGenerateDSYMFile
-x/Users/nmil/Desktop/samplemap/build/Debug-iphonesimulator/samplemap.app.dSYM
-x/Users/nmil/Desktop/samplemap/build/Debug-iphonesimulator/samplemap.app/samplemap
-lSLF07#2@115"GenerateDSYMFile build/Debug-iphonesimulator/samplemap.app.dSYM build/Debug-iphonesimulator/samplemap.app/samplemap306182045#306182045#0(0"0(0#0#81"/Users/nmil/Desktop/samplemap/build/Debug-iphonesimulator/samplemap.app/samplemap4300885448#362"    cd /Users/nmil/Desktop/samplemap    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/nmil/Desktop/samplemap/build/Debug-iphonesimulator/samplemap.app/samplemap -o /Users/nmil/Desktop/samplemap/build/Debug-iphonesimulator/samplemap.app.dSYM0#
-
-CLd /Users/nmil/Desktop/samplemap/build/Debug-iphonesimulator/samplemap.app/samplemap normal i386
-s306182044.974351
-e306182045.035222
-r1
-xLd
-x/Users/nmil/Desktop/samplemap/build/Debug-iphonesimulator/samplemap.app/samplemap
-xnormal
-xi386
-lSLF07#2@86"Link /Users/nmil/Desktop/samplemap/build/Debug-iphonesimulator/samplemap.app/samplemap306182044#306182045#0(0"0(0#0#0"4300885448#871"    cd /Users/nmil/Desktop/samplemap    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -L/Users/nmil/Desktop/samplemap/build/Debug-iphonesimulator -F/Users/nmil/Desktop/samplemap/build/Debug-iphonesimulator -filelist /Users/nmil/Desktop/samplemap/build/samplemap.build/Debug-iphonesimulator/samplemap.build/Objects-normal/i386/samplemap.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreLocation -framework MapKit -o /Users/nmil/Desktop/samplemap/build/Debug-iphonesimulator/samplemap.app/samplemap0#
-
-CProcessInfoPlistFile /Users/nmil/Desktop/samplemap/build/Debug-iphonesimulator/samplemap.app/Info.plist samplemap-Info.plist
-s305838648.153886
-e305838648.609660
-r1
-xProcessInfoPlistFile
-x/Users/nmil/Desktop/samplemap/build/Debug-iphonesimulator/samplemap.app/Info.plist
-xsamplemap-Info.plist
-lSLF07#2@28"Process samplemap-Info.plist305838648#305838648#0(0"0(0#0#50"/Users/nmil/Desktop/samplemap/samplemap-Info.plist4300885448#458"    cd /Users/nmil/Desktop/samplemap    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility samplemap-Info.plist -genpkginfo /Users/nmil/Desktop/samplemap/build/Debug-iphonesimulator/samplemap.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/nmil/Desktop/samplemap/build/Debug-iphonesimulator/samplemap.app/Info.plist0#
-
-CProcessPCH /var/folders/-S/-S4C0P4bEniSSDBGPIQk2++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/samplemap_Prefix-cfiblhusnwxwqsfbkmlmsklrrryb/samplemap_Prefix.pch.gch samplemap_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s305750802.061300
-e305750805.337356
-r1
-xProcessPCH
-x/var/folders/-S/-S4C0P4bEniSSDBGPIQk2++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/samplemap_Prefix-cfiblhusnwxwqsfbkmlmsklrrryb/samplemap_Prefix.pch.gch
-xsamplemap_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@31"Precompile samplemap_Prefix.pch305750802#305750805#0(0"0(0#0#50"/Users/nmil/Desktop/samplemap/samplemap_Prefix.pch4300885448#1699"    cd /Users/nmil/Desktop/samplemap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/nmil/Desktop/samplemap/build/samplemap.build/Debug-iphonesimulator/samplemap.build/samplemap-generated-files.hmap -I/Users/nmil/Desktop/samplemap/build/samplemap.build/Debug-iphonesimulator/samplemap.build/samplemap-own-target-headers.hmap -I/Users/nmil/Desktop/samplemap/build/samplemap.build/Debug-iphonesimulator/samplemap.build/samplemap-all-target-headers.hmap -iquote /Users/nmil/Desktop/samplemap/build/samplemap.build/Debug-iphonesimulator/samplemap.build/samplemap-project-headers.hmap -F/Users/nmil/Desktop/samplemap/build/Debug-iphonesimulator -I/Users/nmil/Desktop/samplemap/build/Debug-iphonesimulator/include -I/Users/nmil/Desktop/samplemap/build/samplemap.build/Debug-iphonesimulator/samplemap.build/DerivedSources/i386 -I/Users/nmil/Desktop/samplemap/build/samplemap.build/Debug-iphonesimulator/samplemap.build/DerivedSources -c /Users/nmil/Desktop/samplemap/samplemap_Prefix.pch -o /var/folders/-S/-S4C0P4bEniSSDBGPIQk2++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/samplemap_Prefix-cfiblhusnwxwqsfbkmlmsklrrryb/samplemap_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/-S/-S4C0P4bEniSSDBGPIQk2++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/samplemap_Prefix-ghbbfaugmklcokbbamqeqnwxhfef/samplemap_Prefix.pch.gch samplemap_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s305759639.695048
-e305759648.279086
-r1
-xProcessPCH
-x/var/folders/-S/-S4C0P4bEniSSDBGPIQk2++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/samplemap_Prefix-ghbbfaugmklcokbbamqeqnwxhfef/samplemap_Prefix.pch.gch
-xsamplemap_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@31"Precompile samplemap_Prefix.pch305759639#305759648#0(0"0(0#0#50"/Users/nmil/Desktop/samplemap/samplemap_Prefix.pch4300885448#1699"    cd /Users/nmil/Desktop/samplemap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/nmil/Desktop/samplemap/build/samplemap.build/Debug-iphonesimulator/samplemap.build/samplemap-generated-files.hmap -I/Users/nmil/Desktop/samplemap/build/samplemap.build/Debug-iphonesimulator/samplemap.build/samplemap-own-target-headers.hmap -I/Users/nmil/Desktop/samplemap/build/samplemap.build/Debug-iphonesimulator/samplemap.build/samplemap-all-target-headers.hmap -iquote /Users/nmil/Desktop/samplemap/build/samplemap.build/Debug-iphonesimulator/samplemap.build/samplemap-project-headers.hmap -F/Users/nmil/Desktop/samplemap/build/Debug-iphonesimulator -I/Users/nmil/Desktop/samplemap/build/Debug-iphonesimulator/include -I/Users/nmil/Desktop/samplemap/build/samplemap.build/Debug-iphonesimulator/samplemap.build/DerivedSources/i386 -I/Users/nmil/Desktop/samplemap/build/samplemap.build/Debug-iphonesimulator/samplemap.build/DerivedSources -c /Users/nmil/Desktop/samplemap/samplemap_Prefix.pch -o /var/folders/-S/-S4C0P4bEniSSDBGPIQk2++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/samplemap_Prefix-ghbbfaugmklcokbbamqeqnwxhfef/samplemap_Prefix.pch.gch0#
-
-CTouch /Users/nmil/Desktop/samplemap/build/Debug-iphonesimulator/samplemap.app
-s306362225.526663
-e306362225.530001
-r1
-xTouch
-x/Users/nmil/Desktop/samplemap/build/Debug-iphonesimulator/samplemap.app
-lSLF07#2@77"Touch /Users/nmil/Desktop/samplemap/build/Debug-iphonesimulator/samplemap.app306362225#306362225#0(0"0(0#0#0"4300885448#262"    cd /Users/nmil/Desktop/samplemap    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/nmil/Desktop/samplemap/build/Debug-iphonesimulator/samplemap.app0#
-
