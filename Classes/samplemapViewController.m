@@ -18,23 +18,12 @@
 	
 		NSString *jsCommand= [NSString stringWithFormat:@"toggleLocation();"];
 	[self.webView stringByEvaluatingJavaScriptFromString:jsCommand];
-	//}
+	
 	
 	}
 	
 
-		/*
-		-(void) locationManager:(CLLocationManager *)manager didUpdateLocation:(CLLocation *)newLocation fromLocation:(CLLocation *) didLocation{
-			MKCoordinateSpan span;
-			span.latitudeDelta=0.2;
-			span.longitudeDelta=0.2;
-			
-			MKCoordinateRegion region;
-			region.span=span;
-			region.center= newLocation.coordinate;
-			[mapView setRegion:region animated:YES];
-			mapView.showsUserLocation= YES;
-		}*/
+		
     // Override point for customization after app launch    
     //[window addSubview:viewController.view];
     //[window makeKeyAndVisible];
@@ -62,7 +51,7 @@
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
- NSString *url = @"http://dhivyat.github.com";
+ NSString *url = @"http://cronkite-asu.github.com/maps3.html";
  NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:url]];
  [webView loadRequest:request];
  [super viewDidLoad];}
@@ -100,19 +89,8 @@
 - (void)dealloc {
     [super dealloc];
 }
-#pragma mark CLLocationManagerDelegate Methods
 
-/*-(void) locationManager:(CLLocationManager *)manager didUpdateLocation:(CLLocation *)newLocation fromLocation:(CLLocation *) didLocation{
-	MKCoordinateSpan span;
-	span.latitudeDelta=0.2;
-	span.longitudeDelta=0.2;
-	
-	MKCoordinateRegion region;
-	region.span=span;
-	region.center= newLocation.coordinate;
-	[mapView setRegion:region animated:YES];
-	mapView.showsUserLocation= YES;
-	
-}*/
+
+
 
 @end
