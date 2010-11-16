@@ -64,6 +64,14 @@
 	//[samplemapViewController logWindow :viewcontroller animated:YES];
 }
 
+-(IBAction)backMapView:(id)sender
+{
+	NSString *url = @"http://cronkite-asu.github.com/maps3.html";
+	NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:url]];
+	[webView loadRequest:request];
+	
+	//[samplemapViewController logWindow :viewcontroller animated:YES];
+}
 
 /*
 // Override to allow orientations other than the default portrait orientation.
