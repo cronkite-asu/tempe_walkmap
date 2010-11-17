@@ -25,6 +25,8 @@
 		9B8487C31268F96000E9A5AA /* detailBuilding.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B8487C11268F96000E9A5AA /* detailBuilding.xib */; };
 		9BD816AB12440B1300B8E549 /* list1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BD816AA12440B1300B8E549 /* list1.png */; };
 		9BD816C012440C5100B8E549 /* pitchpointer.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BD816BF12440C5100B8E549 /* pitchpointer.png */; };
+		B5A0551412943DAE00429F8A /* maps3.html in Resources */ = {isa = PBXBuildFile; fileRef = B5A0551312943DAE00429F8A /* maps3.html */; };
+		B5A05629129449B000429F8A /* map_images in Resources */ = {isa = PBXBuildFile; fileRef = B5A055A0129449B000429F8A /* map_images */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +55,8 @@
 		9B8487C11268F96000E9A5AA /* detailBuilding.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = detailBuilding.xib; sourceTree = "<group>"; };
 		9BD816AA12440B1300B8E549 /* list1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list1.png; sourceTree = "<group>"; };
 		9BD816BF12440C5100B8E549 /* pitchpointer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pitchpointer.png; sourceTree = "<group>"; };
+		B5A0551312943DAE00429F8A /* maps3.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = maps3.html; sourceTree = "<group>"; };
+		B5A055A0129449B000429F8A /* map_images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = map_images; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +126,8 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B5A055A0129449B000429F8A /* map_images */,
+				B5A0551312943DAE00429F8A /* maps3.html */,
 				9B62B027126E433F00439D1F /* buildinglist */,
 				9B0BA017125E489D005B6428 /* samplemapViewController.xib */,
 				9BD816BF12440C5100B8E549 /* pitchpointer.png */,
@@ -174,7 +180,14 @@
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "tempemaps" */;
 			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -196,6 +209,8 @@
 				9B84872D1268D4FA00E9A5AA /* listAll.xib in Resources */,
 				9B8487C31268F96000E9A5AA /* detailBuilding.xib in Resources */,
 				9B62B028126E433F00439D1F /* buildinglist in Resources */,
+				B5A0551412943DAE00429F8A /* maps3.html in Resources */,
+				B5A05629129449B000429F8A /* map_images in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,8 +267,9 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
 				PREBINDING = NO;
-				SDKROOT = iphoneos4.0;
+				SDKROOT = iphoneos4.1;
 			};
 			name = Debug;
 		};

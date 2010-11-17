@@ -1,0 +1,143 @@
+<!DOCTYPE HTML>
+    <html>
+        <head>
+            <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+            <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+            <title>ASU Tempe</title>
+            <script type="text/javascript"
+                src="http://maps.google.com/maps/api/js?sensor=false">
+            </script>
+            <style type="text/css">
+              html { height: 100% }
+              body { height: 100%; margin: 0px; padding: 0px }
+              #map_canvas { height: 100% }
+            </style>
+            <script type="text/javascript" charset="utf-8">
+var togglelocation;
+function initialize() {
+    var sw = new google.maps.LatLng(33.41075539, -111.94210100, true);
+    var ne = new google.maps.LatLng(33.4292203, -111.919763, true);
+    var latlng = new google.maps.LatLng(33.421054, -111.931458, true);
+    // tempe
+    var bounds = new google.maps.LatLngBounds(sw, ne);
+    var watch = false;
+    var memarker = false;
+
+    var tempeMapOptions = {
+        getTileUrl: function(tile, zoom) {
+            return 'map_images/tiles/tempe/' + zoom + '/' + tile.x + '_' + tile.y + '_' + zoom + '.gif';
+        },
+        tileSize: new google.maps.Size(256, 256),
+        maxZoom: 17,
+        name: "ASU",
+        alt: "ASU",
+    }
+    var tempeMapType = new google.maps.ImageMapType(tempeMapOptions);
+    var myOptions = {
+        zoom: 16,
+        center: latlng,
+        mapTypeControlOptions: {
+            mapTypeIds: ['tempe', google.maps.MapTypeId.SATELLITE],
+            style: google.maps.MapTypeControlStyle.DROPDOWN_MENU
+        },
+    };
+    var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+    map.mapTypes.set('tempe', tempeMapType);
+    map.setMapTypeId('tempe');
+    google.maps.event.addListener(map, 'dragend',
+    function() {
+        if (watch) {
+            navigator.geolocation.clearWatch(watch);
+        }
+        followLocation = false;
+        speed = 50;
+        if (map.getBounds().getSouthWest().lat() < bounds.getSouthWest().lat()) {
+            while (map.getBounds().getSouthWest().lat() < bounds.getSouthWest().lat() && map.getBounds().getNorthEast().lat() < bounds.getNorthEast().lat()) {
+                map.panBy(0, -50);
+            }
+        }
+
+        if (map.getBounds().getNorthEast().lat() > bounds.getNorthEast().lat() && map.getBounds().getSouthWest().lat() > bounds.getSouthWest().lat()) {
+            while (map.getBounds().getNorthEast().lat() > bounds.getNorthEast().lat() && map.getBounds().getSouthWest().lat() > bounds.getSouthWest().lat()) {
+                map.panBy(0, 50);
+            }
+        }
+
+        if (map.getBounds().getSouthWest().lng() < bounds.getSouthWest().lng() && map.getBounds().getNorthEast().lng() < bounds.getNorthEast().lng()) {
+            while (map.getBounds().getSouthWest().lng() < bounds.getSouthWest().lng() && map.getBounds().getNorthEast().lng() < bounds.getNorthEast().lng()) {
+                map.panBy(50, 0);
+            }
+        }
+
+        if (map.getBounds().getNorthEast().lng() > bounds.getNorthEast().lng() && map.getBounds().getSouthWest().lng() > bounds.getSouthWest().lng()) {
+            while (map.getBounds().getNorthEast().lng() > bounds.getNorthEast().lng() && map.getBounds().getSouthWest().lng() > bounds.getSouthWest().lng()) {
+                map.panBy( - 50, 0);
+            }
+        }
+
+    });
+
+    var followLocation = false;
+    var image = 'map_images/PinPoint.png'
+
+    toggleLocation = function() {
+
+        // toggle whether watchPosition should move the map or not
+        if (followLocation) {
+            if (watch) {
+                navigator.geolocation.clearWatch(watch);
+                watch = navigator.geolocation.watchPosition(
+                function(position) {
+                    // still set the position marker, but don't setcenter
+                    var pos = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+                    memarker.setPosition(pos);
+                },
+                function(error) {
+                    // handle when we can't get a position
+                    }
+                )
+            }
+            followLocation = false;
+        }
+        else {
+            followLocation = true;
+            if (watch) {
+                navigator.geolocation.clearWatch(watch);
+            };
+            navigator.geolocation.getCurrentPosition(
+            function(position) {
+                var pos = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+                if (!memarker) {
+                    memarker = new google.maps.Marker({
+                        position: latlng,
+                        map: map,
+                        icon: image,
+                        title: "you are here!"
+                    });
+                }
+                map.setCenter(pos);
+            },
+            function(positionError) {
+                }
+            );
+            watch = navigator.geolocation.watchPosition(
+            function(position) {
+                var pos = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+                map.setCenter(pos);
+                memarker.setPosition(pos);
+            },
+            function(error) {
+                // handle when we can't get a position
+                }
+            )
+        }
+        return false;
+    }
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+        </script>
+        </head>
+        <body>
+            <div id="map_canvas" style="width:100%; height:100%"></div>
+        </body>
+    </html>

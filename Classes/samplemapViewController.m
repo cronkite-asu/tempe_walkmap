@@ -51,10 +51,9 @@
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
- NSString *url = @"http://cronkite-asu.github.com/maps3.html";
- NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:url]];
- [webView loadRequest:request];
- [super viewDidLoad];}
+	[self backMapView];
+	[super viewDidLoad];
+}
 
 -(IBAction)listBuildings:(id)sender
 {
@@ -64,11 +63,13 @@
 	//[samplemapViewController logWindow :viewcontroller animated:YES];
 }
 
--(IBAction)backMapView:(id)sender
+-(IBAction)backMapView
 {
-	NSString *url = @"http://cronkite-asu.github.com/maps3.html";
-	NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:url]];
-	[webView loadRequest:request];
+	NSString *filePath = [[NSBundle mainBundle] pathForResource:@"maps3" ofType:@"html"];
+	NSString *mapsHTML = [NSString stringWithContentsOfFile: filePath encoding:NSUTF8StringEncoding error:nil];
+	NSString *path = [[NSBundle mainBundle] bundlePath];
+	NSURL *baseURL = [NSURL fileURLWithPath:path];
+	[webView loadHTMLString:mapsHTML baseURL:baseURL];
 	
 	//[samplemapViewController logWindow :viewcontroller animated:YES];
 }

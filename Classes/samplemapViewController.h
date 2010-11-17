@@ -25,7 +25,7 @@ IBOutlet UIButton *locationBarItem;
 //@property (nonatomic,retain) CLLocationManager *locationManager;
 -(IBAction)currentLocation:(id)sender;
 -(IBAction)listBuildings:(id)sender;
--(IBAction)backMapView:(id)sender;
+-(IBAction)backMapView;
 
 @end
 
