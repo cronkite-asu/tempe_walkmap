@@ -23,6 +23,9 @@
 		9B84872D1268D4FA00E9A5AA /* listAll.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B84872B1268D4FA00E9A5AA /* listAll.xib */; };
 		9B8487C21268F96000E9A5AA /* detailBuilding.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8487C01268F96000E9A5AA /* detailBuilding.m */; };
 		9B8487C31268F96000E9A5AA /* detailBuilding.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B8487C11268F96000E9A5AA /* detailBuilding.xib */; };
+		9BA1FF39129589A4002FC67D /* mapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA1FF37129589A4002FC67D /* mapView.m */; };
+		9BA1FF3A129589A4002FC67D /* mapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BA1FF38129589A4002FC67D /* mapView.xib */; };
+		9BA1FF3C129589C2002FC67D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BA1FF3B129589C2002FC67D /* Default.png */; };
 		9BD816AB12440B1300B8E549 /* list1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BD816AA12440B1300B8E549 /* list1.png */; };
 		9BD816C012440C5100B8E549 /* pitchpointer.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BD816BF12440C5100B8E549 /* pitchpointer.png */; };
 		B5A0551412943DAE00429F8A /* maps3.html in Resources */ = {isa = PBXBuildFile; fileRef = B5A0551312943DAE00429F8A /* maps3.html */; };
@@ -53,6 +56,10 @@
 		9B8487BF1268F96000E9A5AA /* detailBuilding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = detailBuilding.h; sourceTree = "<group>"; };
 		9B8487C01268F96000E9A5AA /* detailBuilding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = detailBuilding.m; sourceTree = "<group>"; };
 		9B8487C11268F96000E9A5AA /* detailBuilding.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = detailBuilding.xib; sourceTree = "<group>"; };
+		9BA1FF36129589A4002FC67D /* mapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mapView.h; sourceTree = "<group>"; };
+		9BA1FF37129589A4002FC67D /* mapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mapView.m; sourceTree = "<group>"; };
+		9BA1FF38129589A4002FC67D /* mapView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = mapView.xib; sourceTree = "<group>"; };
+		9BA1FF3B129589C2002FC67D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		9BD816AA12440B1300B8E549 /* list1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list1.png; sourceTree = "<group>"; };
 		9BD816BF12440C5100B8E549 /* pitchpointer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pitchpointer.png; sourceTree = "<group>"; };
 		B5A0551312943DAE00429F8A /* maps3.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = maps3.html; sourceTree = "<group>"; };
@@ -89,6 +96,9 @@
 				9B8487BF1268F96000E9A5AA /* detailBuilding.h */,
 				9B8487C01268F96000E9A5AA /* detailBuilding.m */,
 				9B8487C11268F96000E9A5AA /* detailBuilding.xib */,
+				9BA1FF36129589A4002FC67D /* mapView.h */,
+				9BA1FF37129589A4002FC67D /* mapView.m */,
+				9BA1FF38129589A4002FC67D /* mapView.xib */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -126,6 +136,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				9BA1FF3B129589C2002FC67D /* Default.png */,
 				B5A055A0129449B000429F8A /* map_images */,
 				B5A0551312943DAE00429F8A /* maps3.html */,
 				9B62B027126E433F00439D1F /* buildinglist */,
@@ -180,7 +191,6 @@
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "tempemaps" */;
 			compatibilityVersion = "Xcode 3.1";
-			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
 				English,
@@ -211,6 +221,8 @@
 				9B62B028126E433F00439D1F /* buildinglist in Resources */,
 				B5A0551412943DAE00429F8A /* maps3.html in Resources */,
 				B5A05629129449B000429F8A /* map_images in Resources */,
+				9BA1FF3A129589A4002FC67D /* mapView.xib in Resources */,
+				9BA1FF3C129589C2002FC67D /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,6 +238,7 @@
 				28D7ACF80DDB3853001CB0EB /* samplemapViewController.m in Sources */,
 				9B84872C1268D4FA00E9A5AA /* listAll.m in Sources */,
 				9B8487C21268F96000E9A5AA /* detailBuilding.m in Sources */,
+				9BA1FF39129589A4002FC67D /* mapView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +282,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
 				PREBINDING = NO;
-				SDKROOT = iphoneos4.1;
+				SDKROOT = iphoneos4.0;
 			};
 			name = Debug;
 		};

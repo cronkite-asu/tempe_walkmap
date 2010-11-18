@@ -10,22 +10,23 @@
 #import <CoreLocation/CoreLocation.h>
 
 @interface samplemapViewController : UIViewController {
-IBOutlet UIWebView *webView;
-	IBOutlet UIButton *list;
-//IBOutlet MKMapView *mapView;
-IBOutlet UIButton *locationBarItem;
-	IBOutlet UIBarButtonItem *locationBarButton;
+
+	IBOutlet UIButton *mainMapPage;
 	
-//CLLocationManager *locationManager;
+	
+//IBOutlet MKMapView *mapView;
+
+	
 	
 	
 }
-@property (nonatomic, retain) IBOutlet UIWebView *webView;
-@property (nonatomic, retain) IBOutlet UIButton *list;
-//@property (nonatomic,retain) CLLocationManager *locationManager;
--(IBAction)currentLocation:(id)sender;
--(IBAction)listBuildings:(id)sender;
--(IBAction)backMapView;
+
+@property (nonatomic, retain) IBOutlet UIButton *mainMapPage;
+
+
+-(IBAction)mainMapView:(id)sender;
+
+
 
 @end
 

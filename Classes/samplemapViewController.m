@@ -8,27 +8,23 @@
 
 #import "samplemapViewController.h"
 #import "listAll.h"
+#import "mapView.h"
 
 @implementation samplemapViewController
-@synthesize webView;
-@synthesize list;
 
--(IBAction)currentLocation:(id)sender{
-	
-	
-		NSString *jsCommand= [NSString stringWithFormat:@"toggleLocation();"];
-	[self.webView stringByEvaluatingJavaScriptFromString:jsCommand];
-	
-	
-	}
-	
-
-		
+@synthesize mainMapPage;	
     // Override point for customization after app launch    
     //[window addSubview:viewController.view];
     //[window makeKeyAndVisible];
 	
 
+-(IBAction)mainMapView:(id)sender
+{
+	mapView *viewcontroller = [[mapView alloc] initWithNibName:@"mapView" bundle:[NSBundle mainBundle]];	
+	[[self view] addSubview:viewcontroller.view];
+
+
+}
 
 
 /*
@@ -51,28 +47,13 @@
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
-	[self backMapView];
+	
 	[super viewDidLoad];
 }
 
--(IBAction)listBuildings:(id)sender
-{
-	listAll *viewcontroller = [[listAll alloc] initWithNibName:@"listAll" bundle:[NSBundle mainBundle]];	
-	[[self view] addSubview:viewcontroller.view];
-	
-	//[samplemapViewController logWindow :viewcontroller animated:YES];
-}
 
--(IBAction)backMapView
-{
-	NSString *filePath = [[NSBundle mainBundle] pathForResource:@"maps3" ofType:@"html"];
-	NSString *mapsHTML = [NSString stringWithContentsOfFile: filePath encoding:NSUTF8StringEncoding error:nil];
-	NSString *path = [[NSBundle mainBundle] bundlePath];
-	NSURL *baseURL = [NSURL fileURLWithPath:path];
-	[webView loadHTMLString:mapsHTML baseURL:baseURL];
-	
-	//[samplemapViewController logWindow :viewcontroller animated:YES];
-}
+
+
 
 /*
 // Override to allow orientations other than the default portrait orientation.
