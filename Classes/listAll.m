@@ -26,7 +26,7 @@
 
 -(void)loadNames {
 	// Path to the database
-	NSString* dbPath = [[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:@"buildinglist"];
+	NSString* dbPath = [[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:@"placedb.sqlite"];
 	NSLog(@"databasePath: %@",dbPath);
 	sqlite3 *database;
 	NSString *name;
@@ -34,7 +34,7 @@
 	// Open the database
 	if (sqlite3_open([dbPath UTF8String], &database) == SQLITE_OK) {
 		NSLog(@"database open");
-		const char *sql = "SELECT buildingname FROM listAllBuildings";
+		const char *sql = "SELECT name FROM place";
 		sqlite3_stmt *compiledStmt;
 		// Fetch all names
 		NSLog(@"fetch names");
