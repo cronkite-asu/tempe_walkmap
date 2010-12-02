@@ -10,6 +10,7 @@
 
 #import "sqlite3.h"
 #import "detailBuilding.h"
+#import "mapView.h"
 
 
 @implementation listAll
@@ -155,6 +156,8 @@
 	if([searchText isEqualToString:@""] || searchText==nil) {
 		// Nothing to search, empty result.
 		[myTableView reloadData];
+		 //[self loadNames];
+		//[searchedNames addObjectsFromArray:names];
 		return;
 	}
 	
@@ -168,6 +171,7 @@
 }
 
 - (void)searchBarCancelButtonClicked:(UISearchBar *)searchBar {
+	[myTableView reloadData];
 }
 
 - (void)searchBarSearchButtonClicked:(UISearchBar *)searchBar {
@@ -220,14 +224,19 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     // Navigation logic may go here. Create and push another view controller.
-	
-	 detailBuilding *detailViewController = [[detailBuilding alloc] initWithNibName:@"detailBuilding" bundle:nil];
+		//// detailBuilding *detailViewController = [[detailBuilding alloc] initWithNibName:@"detailBuilding" bundle:nil];
+	mapView *mapViewController = [[ mapView alloc] initWithNibName:@"mapView" bundle:nil];
+	//(NSString *)stringByEvaluatingJavaScriptFromString:(NSString *):@"alert('hello');";
+	NSString *jsCommand= [NSString stringWithFormat:@"alert('hello');"];
+	[mapViewController.webView stringByEvaluatingJavaScriptFromString:jsCommand];
+	[[self view] addSubview:mapViewController.view];
+
      // ...
      // Pass the selected object to the new view controller.
-	 [self.navigationController pushViewController:detailViewController animated:YES];
-	[[self view] addSubview:detailViewController.view];
+	/// [self.navigationController pushViewController:detailViewController animated:YES];
+	////[[self view] addSubview:detailViewController.view];
 	//self.title=[names name];
-	[detailViewController release];
+	////[detailViewController release];
 	 
 }
 
